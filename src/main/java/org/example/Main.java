@@ -493,7 +493,6 @@ public class Main {
         while (right < s.length()) {
             charCount[s.charAt(right) - 'A']++;
 
-
             lengthLongest = Math.max(lengthLongest, right - left + 1);
 
             right++;
